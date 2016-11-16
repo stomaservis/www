@@ -20,39 +20,7 @@
     <meta name="Description" content='IDweb - I vaší firmě dáme tvář na internetu' lang='cs' />
     <meta name="Keywords" content='idweb' lang='cs' />
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(".fancybox").fancybox({
-                openEffect: 'none',
-                closeEffect: 'none'
-            });
 
-            var rMsg = $("#resultMessage");
-            if (rMsg != null && rMsg.html() != "") {
-                $.fancybox(rMsg.html());
-            }
-            $("#tabs").tabs();
-        });
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('body').addClass('slowImg');
-            $(".fancybox").fancybox({
-                openEffect: 'none',
-                closeEffect: 'none'
-            });
-            $("#tabs").tabs();
-            $("#editTabs").tabs();
-
-            if ($("#resultMessage").val() != "") {
-                $.fancybox($("#resultMessage").val(),
-                    { openEffect: 'none',
-                        closeEffect: 'none'
-                    });
-            }
-        });
-    </script>
 </head>
 
 <body id='cs-' class=''>
