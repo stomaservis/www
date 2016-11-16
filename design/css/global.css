@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Scada';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Scada'), local('Scada-Regular'), url(http://themes.googleusercontent.com/static/fonts/scada/v2/wEDy4ZuGe2pbAKIZ9HtyXw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Scada';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Scada Bold'), local('Scada-Bold'), url(http://themes.googleusercontent.com/static/fonts/scada/v2/_9nFs7qQLY6Fi11QmQLpwPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+body{margin:0; text-align:center; font-size:15px; padding:0;font-family: 'Scada', sans-serif;background:#78cea1 url(img/bg-body.png) repeat-y center top; color:#555;text-shadow: 1px 1px 1px #bbb;border-top:5px solid #00a651;}
+
+a{color:#555;}
+
+p{line-height: 22px; margin:0; padding: 0 0 11px}
+
+h1, h2, h3, h4, .edit #container input[type="text"]#Title{margin:0; padding: 20px 0 10px; color:#00a651; font-weight:normal}
+h1, .edit #container input[type="text"]#Title{font-size:250%; padding-bottom:30px;}
+h2{font-size:200%}
+h3{font-size:150%}
+h4{font-size:120%}
+
+.green{color:#00a651}
+
+#header, #footer{display:block;clear:both; position:relative}
+
+#container{}
+
+#cs- h1{display:none}
+
+#header{width:900px; height:127px; margin:0 auto; text-align:left;position:relative;z-index:2}
+#logo{margin:0; padding:0;width:auto; height:auto; position:absolute;right:-18px;top:65px;width:290px; height:53px;overflow:hidden; }
+#logo a{font-size:30px; text-decoration:none;display:block;width:286px; height:53px; background:url(img/logo-stomaservis.png) no-repeat; overflow:hidden; text-indent:-9999px;}
+
+#logo a:hover{text-decoration:underline}
+
+#menu{ position:absolute; left:0; bottom:7px;}
+
+#menu ul{ width:auto; margin:0; padding:0; text-align:right}
+#menu ul li{list-style:none;display:inline-block;height:50px;padding:0; margin-left:5px; position:relative}
+#menu ul li a{display:block; height:50px;line-height:46px; font-size:140%; padding:0 12px; margin:0; text-decoration:none; background:transparent;border-top:5px solid #A9A9A9;color:#555;}
+#menu ul li:hover a, #menu ul li a.active{color:#00a651; border-top:5px solid #00a651; background:url(img/item-bg.png) no-repeat top center}
+#menu ul li a.active{font-weight:normal;}
+#menu ul li.menu-add{}
+
+#menu ul ul{display:none;position: absolute;top: 43px;right: 0;width: auto;padding: 0 0 10px;border: 0;background:#00a651}
+#menu ul li:hover ul{display: block}
+#menu li li{white-space:nowrap; display:block; height:30px; margin:0}
+#menu li li:last-child a{padding-bottom:10px}
+#menu li li a{display:block;border-radius:0;border:0;color:#fff; background-image:none; line-height:30px;height:30px}
+#menu li li a, #menu li:hover li a{background-image:none}
+#menu li li a:hover{text-decoration:underline}
+
+#menu li.menu-add{display:none;}
+.menu-edit {top: -40px;}
+.sidebar-block .menu-edit {top: -25px;}
+
+body.cke_editable{text-align:left; background-image:none; background:#fff;}
+
+#mobil{background:url(img/ico-tel.png) no-repeat 0 0;height:36px; line-height:36px; color:#00a651; font-size:30px;position:absolute; top:50px; right:20px;padding:0 0 0 40px}
+
+
+#content{position:relative;text-align:center; padding:25px 0; min-height:400px; width:900px; margin:0 auto;}
+#contentIn{position:relative;width:590px; margin:0; text-align:left; padding: 0;float:left;}
+#footer{background:#fff url(img/shadow.png) no-repeat top center;width:400px; margin:0 auto; padding:40px 250px}
+
+#sidebar{position:relative; float:right; width:290px; text-align:left;margin: 27px 0 0;}
+
+.sidebar-block{padding:30px 0 40px 30px; background:url(img/block-shadow.png) no-repeat 0 0; margin:0 0 0 30px}
+.sidebar-block h2{font-weight:normal; padding:0 0 0 45px; height:36px; line-height:36px; margin:0 0 10px; background: url(img/icons-hp.png) no-repeat 0 0; font-size: 150%;}
+.sidebar-block #sidebar02 h2{background-position: 0 -36px}
+
+#cs-kontakt .form{}
+#cs-kontakt #container .form label{text-align:left;}
+#cs-kontakt #container .form input[type="text"]{min-width:280px}
+
+#cs-kontakt .form textarea {min-width: 400px;}
+#cs-kontakt .form #buttons{margin-left:0;}
+
+#copyright{float:left}
+#copyright p{display: inline-block;}
+#copyright a{text-decoration:none;}
+#copyright a:hover{text-decoration:underline;}
+.footerLogin span{display:none;}
+
+
+.slider{position: relative; margin:0 0 40px;} /* background:#fff; border:1px solid #d3d3d3; padding:25px */
+/* .slider:after{content:'';position:absolute; left:0; bottom:-19px; width:900px; height:18px; background:url(img/shadow.png) no-repeat top center} */
+.slider .left{float:left; width:430px}
+.slider .right{float:right; width:385px; height:267px; border:1px solid #d6d6d6; padding:5px;background:#fff;}
+.anythingSlider-default{margin:0!important; padding:0!important}
+.anythingWindow{}
+.anythingSlider-default .anythingWindow{border:0!important;}
+.anythingSlider-default .anythingControls{text-align:center}
+.anythingSlider-default .anythingControls .thumbNav{display: inline-block;float: none;}
+.anythingControls .thumbNav li{}
+.anythingSlider-default.activeSlider .anythingControls .thumbNav li a{ font-family:'Scada';padding:0;margin:0;width:16px;height:16px;border-radius:16px;margin:0 3px;border:0;background:#666; color:#fff}
+.anythingSlider-default.activeSlider .anythingControls .thumbNav li a.cur{border-color:#666; background:#ccc}
+.anythingControls .thumbNav li a span{background:transparent}
+.anythingSlider-default .arrow a{background-image:url(img/slider-arrows.png) !important;width:58px!important; height:101px!important}
+
+#slider3{width: auto; list-style: none; margin:0; padding:0} /* width content - width arrows = width slider */
+#slider3 li .obsah{text-align:center}
+#slider3 li .blockSlider{}
+#slider3 li .blockSlider .caption-top{width:340px; float:right;padding-right: 20px;}
+#slider3 li .blockSlider .caption-top h2{color:#0669C4;}
+#slider3 li .blockSlider .caption-top p{}
+#slider3 li .blockSlider .caption-top p a{display: block; padding:0 20px 0 10px; line-height:30px;height:30px;background: url(img/menu-bg.png) repeat-x 0 -6px;width: 120px;border: 1px solid #0669C4;border-radius:10px; text-decoration:none;color:#fff; text-shadow:none;margin:10px 0; position:relative}
+#slider3 li .blockSlider .caption-top p a:after{content:''; display:block; position:absolute;width:6px;height:11px;top:9px; right:10px;background:url(img/btn-arrow.png) no-repeat 0 0;}
+#slider3 li .blockSlider .image{width:385px;height:267px;float:left;padding:0; text-align:center;vertical-align:middle}
+#slider3 li .blockSlider .image img{vertical-align:middle}
+
+#three-blocks{}
+#three-blocks .block{float:left;width:273px; margin:0 40px 0 0}
+#three-blocks .last{float:right;margin:0}
+#three-blocks .block h2{color:#00a651; background: url(img/icons-hp.png) no-repeat 0 0; padding:0 0 0 45px;line-height:35px;font-weight:normal; font-size:140%; margin:0 0 20px}
+#three-blocks #adresa h2{background-position:0 -35px}
+#three-blocks #ordinacni-hodiny h2{background-position:0 -70px}
+#three-blocks .block p{padding:0 5px 10px}
+
+#container input[type="submit"], #container input[type="button"], #container button, #container input[type="text"], #container input[type="password"], #container textarea{border-radius:0; font-family:'Scada';}
+
+#container input[type="submit"]:hover, #container input[type="button"]:hover, #container button:hover{border-color:#00A651; background:#03B459; text-shadow:1px 1px #00A651}
+
+
+
+
+
+.slider, .anythingSlider-default{padding: 0!important;width:615px!important;height: 411px!important;position:relative}
+
+
+.anythingWindow{border:0!important;}
+/*.anythingSlider-default.activeSlider .anythingWindow{width:1920px!important}*/
+
+.anythingSlider-default .anythingControls{margin: 0;text-align: center;}
+.anythingSlider-default .anythingControls{display:block!important;position: absolute;
+width: 100%;
+bottom: 0;
+left: 0;}
+.anythingSlider-default .anythingControls ul{float:none!important; margin:0 auto!important}
+.anythingSlider-default .anythingControls ul a{background:#666!important; border-radius:16px!important; height:16px!important; width:16px!important; border:1px solid #333!important; padding:0!important; display:inline-block!important;}
+.anythingSlider-default .anythingControls ul a span{}
+.anythingSlider-default .anythingControls ul a.cur{background:#333!important; border:1px solid #666!important;}
+
+table{margin-bottom:7px;}
+table tr td {border-bottom: 0; padding:5px 0}
+
+.special-container,
+  .special-container h2,
+  .special-container h3,
+  .special-container h4,
+  .special-container a{color:#c00!important}
