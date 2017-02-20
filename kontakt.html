@@ -3,9 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="idweb.cz" name="Copyright" />
     <meta name="robots" content="all,follow" />
-    <meta name="author" content="2014 (c) idweb.cz" />
+    <meta name="author" content="2017 (c) idweb.cz" />
     <link href="/favicon.ico" rel="Shortcut Icon" />
     <link href="design/css/admin.css" rel="stylesheet" type="text/css" />
     <link href="design/css/global.css" rel="stylesheet" type="text/css" />
@@ -13,6 +16,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>	
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="design/js/js-min.js"></script>
+    <script type="text/javascript" src="design/js/global.js"></script>
 
 
     
@@ -31,15 +35,16 @@
     
 
 <div id="header">	
-	<div id="logo"><a href="/" title="Stomaservis s.r.o.">Stomaservis s.r.o.<span><!-- --></span></a></div>	
-    
+	<div id="logo"><a href="/" title="Stomaservis s.r.o.">Stomaservis s.r.o.<span><!-- --></span></a></div>
 
+    <div id="menu-btn">Menu <span></span></div>
 <div id="menu">
 	<ul>
 		<li class='cs-'><a class='' href='/'>Úvod</a></li>
-        <li class='cs-aktualne '><a class='' href='aktualne.html'>Aktuálně</a></li>
         <li class='cs-sluzby '><a class='' href='sluzby.html'>Služby</a></li>
         <li class='cs-pristrojove-vybaveni '><a class='' href='pristrojove-vybaveni.html'>Přístrojové vybavení</a></li>
+        <li class='cs-nas-tym'><a class='' href='nas-tym.html'>Náš tým</a></li>
+        <li class='cs-pro-lekare'><a class='' href='pro-lekare.html'>Pro lékaře</a></li>
         <li class='active cs-kontakt '><a class='active' href='kontakt.html'>Kontakt</a></li>
 	</ul>
 </div>
@@ -73,8 +78,9 @@ Mírové náměstí 3428/5a<br />
 		</tr>
 	</tbody>
 </table>
-
-<p><iframe frameborder="0" height="200" src="http://api4.mapy.cz/frame?url=http%3A%2F%2Fwww.mapy.cz%2Fs%2F9sFr&amp;z=14&amp;x=14.041344202158522&amp;y=50.66064967638925&amp;layer=1&amp;mini=1&amp;dx=14.041344202158522&amp;dy=50.66064967638925&amp;dt=Stomaservis%2C%20s.r.o.&amp;w=300&amp;h=200" width="300"></iframe></p>
+            <div class="iframe">
+            <img src="design/css/img/bg_iframe.gif" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2529.19181790625!2d14.039184916316605!3d50.66069898007313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470984abfb9fd049%3A0x808150c5cfc1be4e!2sStomaservis+s.r.o.!5e0!3m2!1scs!2scz!4v1487242996182" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 
 
@@ -90,20 +96,25 @@ Mírové náměstí 3428/5a<br />
         
 <div id="sidebar">        
             <div class="sidebar-block">
-		        <div id="sidebar01" class="blok">
+                <div id="sidebar01" class="blok">
                     <H2>Najdete nás</H2>
 <P><STRONG>Stomaservis s.r.o.</STRONG><BR>Mírové náměstí 3428/5a<BR>​400 01, Ústí nad Labem</P>
-<P><STRONG>tel: 775 583 887</STRONG></P>
-		        </div>
+<P><STRONG>tel: 775 583 887<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 775 578 353</STRONG></P>
+                </div>
             </div> 
             <div class="sidebar-block">
-		        <div id="sidebar02" class="blok">
+                <div id="sidebar02" class="blok">
                     <H2>Provozní doba</H2>
-<P>​<STRONG>Pondělí - Čtvrtek<BR>​</STRONG>08:00 - 16:00</P>
+                    <p><strong>Recepce a RTG od 7:00</strong></p>
+<p>​<strong>Pondělí - Čtvrtek<br />​</strong>08:00 - 11:30 &nbsp; 12:00 - 16:00 <br />
+ Polední pauza 11:30 - 12:00</p>
+
 <P><STRONG>Pátek</STRONG><BR>08:00 - 11:00</P>
-<DIV class=special-container>
-<P><STRONG>Bolestivé případy&nbsp;</STRONG><STRONG>u nás<BR>registrovaných&nbsp;pacientů</STRONG><BR>08:00<BR>&nbsp;</P></DIV>
-		        </div>
+<div class="special-container">
+<p><strong>Bolestivé případy u nás <br />
+registrovaných pacientů v&nbsp;8.00.</strong></p>
+</div>
+                </div>
             </div> 
 </div>
 
@@ -120,7 +131,7 @@ Mírové náměstí 3428/5a<br />
     <div id="footer-in">
     
     
-    <div id="copyright">2014 &copy; Stomaservis s.r.o. 
+    <div id="copyright">2017 &copy; Stomaservis s.r.o. 
 		<!--<p>Nepřihlášen, <a href="/cs/login">přihlásit</a></p>-->
 </div>
 		<p id="madeBy"><a id="madeByLink" href="http://www.idweb.cz" title="Tento projekt realizoval IDweb.cz - Dejte světu vědět, že existujete">Realizoval: <strong>IDweb.cz</strong></a></p>
