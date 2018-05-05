@@ -218,6 +218,7 @@ margin: 4px 0 0;
 .expand.expand-btn  .expand-body {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
+  padding: 0 0 15px;
 }
 
 .expand.expand-btn h2.expand-title:before{display: none;}
