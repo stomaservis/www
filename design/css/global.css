@@ -181,8 +181,6 @@ table tr td {border-bottom: 0; padding:5px 0}
 #menu-btn.is-active span{background:0}#menu-btn.is-active span:before,#menu-btn.is-active span:after{transition-delay:0s,0.3s}
 #menu-btn.is-active span:before{top:0;transform:rotate(45deg)}#menu-btn.is-active span:after{bottom:0;transform:rotate(-45deg)}
 @media only screen and (min-width:1025px){#menu-btn{display:none}}
-/*# sourceMappingURL=styles.css.map */
-
 
 .expand{border-bottom: 1px solid #ccc;}
 .expand.last {border-bottom:0;}
