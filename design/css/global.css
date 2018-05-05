@@ -204,6 +204,26 @@ margin: 4px 0 0;
 }
 .expand .expand-body{display: none;padding: 0 0 20px 25px;}
 
+.expand.expand-btn h2.expand-title {
+  border: 1px solid #00a651;
+  border-radius: 3px;
+  font-size: 18px;
+  display: inline-block;
+  padding: 8px 17px 7px;
+  text-decoration: none;
+  margin: 0 0 20px;
+}
+.expand.expand-btn h2.expand-title:hover {
+  background: #00a651;
+  color: white;
+}
+.expand.expand-btn  .expand-body {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.expand.expand-btn h2.expand-title:before{display: none;}
+
 .foto {
   clear: both;
   position: relative;
