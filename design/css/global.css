@@ -245,8 +245,17 @@ margin: 4px 0 0;
 
 
 
+.ico-instagram {
+  background: url(img/instagram.svg) no-repeat center left;
+    padding: 5px 5px 5px 30px;
+    margin: 0;
+    text-align: left;
+    color: #00a651;
+}
 
-
+#sidebar .ico-instagram {
+    margin: 0 0 0 60px;
+  }
 
 
 
